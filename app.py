@@ -6,5 +6,5 @@ categories = ['a', 'b', 'c']
 st.multiselect ("Pick a category", categories)
 
 st.sidebar.button("Click me!")
-if st.checkbox("Select me!")
+if st.checkbox("Select me!"):
     st.write("you selected the check box")
